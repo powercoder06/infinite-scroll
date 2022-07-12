@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 html {
@@ -7,8 +7,9 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: 'Splash', cursive;
-    background: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(92deg,rgb(0, 0, 0), rgb(0, 238, 255),rgb(0, 0, 0));
+    color: azure;
 }
 h1 {
     text-align: center;
@@ -16,8 +17,9 @@ h1 {
     margin-bottom: 15px;
     font-size: 40px;
     letter-spacing: 5px;
+    text-shadow: 0.35rem 0.25rem black
 }
-
+;
 /* Loader */
  .loader {  
     position: fixed;
